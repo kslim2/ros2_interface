@@ -1,0 +1,8 @@
+{
+  "package_name": "learn_interface",
+  "non_idl_tuples": [
+    "/home/mike/ros2_cool/04-interface/dev_ws/src/learn_interface:msg/ObjectPosition.msg",
+    "/home/mike/ros2_cool/04-interface/dev_ws/src/learn_interface:srv/AddTwoInts.srv",
+    "/home/mike/ros2_cool/04-interface/dev_ws/src/learn_interface:srv/GetObjectPosition.srv"
+  ]
+}

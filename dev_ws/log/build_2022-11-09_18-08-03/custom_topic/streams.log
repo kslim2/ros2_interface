@@ -1,0 +1,41 @@
+[0.846s] Invoking command in '/home/mike/ros2_cool/04-interface/dev_ws/src/custom_topic': PYTHONPATH=/home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/custom_topic build --build-base /home/mike/ros2_cool/04-interface/dev_ws/build/custom_topic/build install --prefix /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic --record /home/mike/ros2_cool/04-interface/dev_ws/build/custom_topic/install.log --single-version-externally-managed
+[1.159s] running egg_info
+[1.160s] creating ../../build/custom_topic/custom_topic.egg-info
+[1.161s] writing ../../build/custom_topic/custom_topic.egg-info/PKG-INFO
+[1.162s] writing dependency_links to ../../build/custom_topic/custom_topic.egg-info/dependency_links.txt
+[1.163s] writing entry points to ../../build/custom_topic/custom_topic.egg-info/entry_points.txt
+[1.163s] writing requirements to ../../build/custom_topic/custom_topic.egg-info/requires.txt
+[1.163s] writing top-level names to ../../build/custom_topic/custom_topic.egg-info/top_level.txt
+[1.164s] writing manifest file '../../build/custom_topic/custom_topic.egg-info/SOURCES.txt'
+[1.166s] reading manifest file '../../build/custom_topic/custom_topic.egg-info/SOURCES.txt'
+[1.167s] writing manifest file '../../build/custom_topic/custom_topic.egg-info/SOURCES.txt'
+[1.167s] running build
+[1.168s] running build_py
+[1.168s] creating /home/mike/ros2_cool/04-interface/dev_ws/build/custom_topic/build
+[1.168s] creating /home/mike/ros2_cool/04-interface/dev_ws/build/custom_topic/build/lib
+[1.169s] creating /home/mike/ros2_cool/04-interface/dev_ws/build/custom_topic/build/lib/custom_topic
+[1.169s] copying custom_topic/service_object_server.py -> /home/mike/ros2_cool/04-interface/dev_ws/build/custom_topic/build/lib/custom_topic
+[1.169s] copying custom_topic/service_object_client.py -> /home/mike/ros2_cool/04-interface/dev_ws/build/custom_topic/build/lib/custom_topic
+[1.169s] copying custom_topic/__init__.py -> /home/mike/ros2_cool/04-interface/dev_ws/build/custom_topic/build/lib/custom_topic
+[1.169s] running install
+[1.170s] running install_lib
+[1.171s] creating /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/lib/python3.10/site-packages/custom_topic
+[1.171s] copying /home/mike/ros2_cool/04-interface/dev_ws/build/custom_topic/build/lib/custom_topic/service_object_server.py -> /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/lib/python3.10/site-packages/custom_topic
+[1.172s] copying /home/mike/ros2_cool/04-interface/dev_ws/build/custom_topic/build/lib/custom_topic/service_object_client.py -> /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/lib/python3.10/site-packages/custom_topic
+[1.172s] copying /home/mike/ros2_cool/04-interface/dev_ws/build/custom_topic/build/lib/custom_topic/__init__.py -> /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/lib/python3.10/site-packages/custom_topic
+[1.172s] byte-compiling /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/lib/python3.10/site-packages/custom_topic/service_object_server.py to service_object_server.cpython-310.pyc
+[1.173s] byte-compiling /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/lib/python3.10/site-packages/custom_topic/service_object_client.py to service_object_client.cpython-310.pyc
+[1.174s] byte-compiling /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/lib/python3.10/site-packages/custom_topic/__init__.py to __init__.cpython-310.pyc
+[1.174s] running install_data
+[1.175s] creating /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/share/ament_index
+[1.175s] creating /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/share/ament_index/resource_index
+[1.175s] creating /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/share/ament_index/resource_index/packages
+[1.176s] copying resource/custom_topic -> /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/share/ament_index/resource_index/packages
+[1.176s] copying package.xml -> /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/share/custom_topic
+[1.176s] running install_egg_info
+[1.178s] Copying ../../build/custom_topic/custom_topic.egg-info to /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/lib/python3.10/site-packages/custom_topic-0.0.0-py3.10.egg-info
+[1.179s] running install_scripts
+[1.199s] Installing service_pub script to /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/lib/custom_topic
+[1.200s] Installing service_sub script to /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/lib/custom_topic
+[1.200s] writing list of installed files to '/home/mike/ros2_cool/04-interface/dev_ws/build/custom_topic/install.log'
+[1.247s] Invoked command in '/home/mike/ros2_cool/04-interface/dev_ws/src/custom_topic' returned '0': PYTHONPATH=/home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/custom_topic build --build-base /home/mike/ros2_cool/04-interface/dev_ws/build/custom_topic/build install --prefix /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic --record /home/mike/ros2_cool/04-interface/dev_ws/build/custom_topic/install.log --single-version-externally-managed

@@ -1,0 +1,466 @@
+[0.000000] (-) TimerEvent: {}
+[0.000328] (custom_topic) JobQueued: {'identifier': 'custom_topic', 'dependencies': OrderedDict()}
+[0.000770] (learn_interface) JobQueued: {'identifier': 'learn_interface', 'dependencies': OrderedDict()}
+[0.002436] (custom_topic) JobStarted: {'identifier': 'custom_topic'}
+[0.019089] (learn_interface) JobStarted: {'identifier': 'learn_interface'}
+[0.098866] (-) TimerEvent: {}
+[0.199567] (-) TimerEvent: {}
+[0.300262] (-) TimerEvent: {}
+[0.337873] (learn_interface) JobProgress: {'identifier': 'learn_interface', 'progress': 'cmake'}
+[0.338522] (learn_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/mike/ros2_cool/04-interface/dev_ws/src/learn_interface', '-DCMAKE_INSTALL_PREFIX=/home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface'], 'cwd': '/home/mike/ros2_cool/04-interface/dev_ws/build/learn_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mike'), ('GIT_ASKPASS', '/home/mike/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mike'), ('OLDPWD', '/home/mike/ros2_cool/04-interface/dev_ws/src'), ('TERM_PROGRAM_VERSION', '1.73.0'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-d48b0a09-375b-43e8-93d3-b77609877d1f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/mike/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/mike/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mike'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/21225_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mike/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/bin/remote-cli:/home/mike/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/mike/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/mike/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-736c2d4879.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/mike/ros2_cool/04-interface/dev_ws/build/learn_interface'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.400434] (-) TimerEvent: {}
+[0.498742] (learn_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.500633] (-) TimerEvent: {}
+[0.601198] (-) TimerEvent: {}
+[0.701824] (-) TimerEvent: {}
+[0.802327] (-) TimerEvent: {}
+[0.844754] (custom_topic) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/custom_topic', 'build', '--build-base', '/home/mike/ros2_cool/04-interface/dev_ws/build/custom_topic/build', 'install', '--prefix', '/home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic', '--record', '/home/mike/ros2_cool/04-interface/dev_ws/build/custom_topic/install.log', '--single-version-externally-managed'], 'cwd': '/home/mike/ros2_cool/04-interface/dev_ws/src/custom_topic', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mike', 'GIT_ASKPASS': '/home/mike/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mike', 'OLDPWD': '/home/mike/ros2_cool/04-interface/dev_ws/src', 'TERM_PROGRAM_VERSION': '1.73.0', 'VSCODE_IPC_HOOK_CLI': '/mnt/wslg/runtime-dir/vscode-ipc-d48b0a09-375b-43e8-93d3-b77609877d1f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/mike/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/mike/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/node', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mike', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/21225_interop', 'PULSE_SERVER': '/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/mike/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/bin/remote-cli:/home/mike/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/mike/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/mike/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/mnt/wslg/runtime-dir/vscode-git-736c2d4879.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/mike/ros2_cool/04-interface/dev_ws/build/custom_topic', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}, 'shell': False}
+[0.902472] (-) TimerEvent: {}
+[1.002927] (-) TimerEvent: {}
+[1.103457] (-) TimerEvent: {}
+[1.161828] (custom_topic) StdoutLine: {'line': b'running egg_info\n'}
+[1.162794] (custom_topic) StdoutLine: {'line': b'creating ../../build/custom_topic/custom_topic.egg-info\n'}
+[1.163478] (custom_topic) StdoutLine: {'line': b'writing ../../build/custom_topic/custom_topic.egg-info/PKG-INFO\n'}
+[1.164591] (custom_topic) StdoutLine: {'line': b'writing dependency_links to ../../build/custom_topic/custom_topic.egg-info/dependency_links.txt\n'}
+[1.165143] (custom_topic) StdoutLine: {'line': b'writing entry points to ../../build/custom_topic/custom_topic.egg-info/entry_points.txt\n'}
+[1.165607] (custom_topic) StdoutLine: {'line': b'writing requirements to ../../build/custom_topic/custom_topic.egg-info/requires.txt\n'}
+[1.166125] (custom_topic) StdoutLine: {'line': b'writing top-level names to ../../build/custom_topic/custom_topic.egg-info/top_level.txt\n'}
+[1.166374] (custom_topic) StdoutLine: {'line': b"writing manifest file '../../build/custom_topic/custom_topic.egg-info/SOURCES.txt'\n"}
+[1.168304] (custom_topic) StdoutLine: {'line': b"reading manifest file '../../build/custom_topic/custom_topic.egg-info/SOURCES.txt'\n"}
+[1.169180] (custom_topic) StdoutLine: {'line': b"writing manifest file '../../build/custom_topic/custom_topic.egg-info/SOURCES.txt'\n"}
+[1.169664] (custom_topic) StdoutLine: {'line': b'running build\n'}
+[1.170038] (custom_topic) StdoutLine: {'line': b'running build_py\n'}
+[1.170564] (custom_topic) StdoutLine: {'line': b'creating /home/mike/ros2_cool/04-interface/dev_ws/build/custom_topic/build\n'}
+[1.170940] (custom_topic) StdoutLine: {'line': b'creating /home/mike/ros2_cool/04-interface/dev_ws/build/custom_topic/build/lib\n'}
+[1.171389] (custom_topic) StdoutLine: {'line': b'creating /home/mike/ros2_cool/04-interface/dev_ws/build/custom_topic/build/lib/custom_topic\n'}
+[1.171581] (custom_topic) StdoutLine: {'line': b'copying custom_topic/service_object_server.py -> /home/mike/ros2_cool/04-interface/dev_ws/build/custom_topic/build/lib/custom_topic\n'}
+[1.171781] (custom_topic) StdoutLine: {'line': b'copying custom_topic/service_object_client.py -> /home/mike/ros2_cool/04-interface/dev_ws/build/custom_topic/build/lib/custom_topic\n'}
+[1.171890] (custom_topic) StdoutLine: {'line': b'copying custom_topic/__init__.py -> /home/mike/ros2_cool/04-interface/dev_ws/build/custom_topic/build/lib/custom_topic\n'}
+[1.172026] (custom_topic) StdoutLine: {'line': b'running install\n'}
+[1.172345] (custom_topic) StdoutLine: {'line': b'running install_lib\n'}
+[1.173577] (custom_topic) StdoutLine: {'line': b'creating /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/lib/python3.10/site-packages/custom_topic\n'}
+[1.174077] (custom_topic) StdoutLine: {'line': b'copying /home/mike/ros2_cool/04-interface/dev_ws/build/custom_topic/build/lib/custom_topic/service_object_server.py -> /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/lib/python3.10/site-packages/custom_topic\n'}
+[1.174296] (custom_topic) StdoutLine: {'line': b'copying /home/mike/ros2_cool/04-interface/dev_ws/build/custom_topic/build/lib/custom_topic/service_object_client.py -> /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/lib/python3.10/site-packages/custom_topic\n'}
+[1.174469] (custom_topic) StdoutLine: {'line': b'copying /home/mike/ros2_cool/04-interface/dev_ws/build/custom_topic/build/lib/custom_topic/__init__.py -> /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/lib/python3.10/site-packages/custom_topic\n'}
+[1.174884] (custom_topic) StdoutLine: {'line': b'byte-compiling /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/lib/python3.10/site-packages/custom_topic/service_object_server.py to service_object_server.cpython-310.pyc\n'}
+[1.175615] (custom_topic) StdoutLine: {'line': b'byte-compiling /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/lib/python3.10/site-packages/custom_topic/service_object_client.py to service_object_client.cpython-310.pyc\n'}
+[1.176359] (custom_topic) StdoutLine: {'line': b'byte-compiling /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/lib/python3.10/site-packages/custom_topic/__init__.py to __init__.cpython-310.pyc\n'}
+[1.176710] (custom_topic) StdoutLine: {'line': b'running install_data\n'}
+[1.177382] (custom_topic) StdoutLine: {'line': b'creating /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/share/ament_index\n'}
+[1.177623] (custom_topic) StdoutLine: {'line': b'creating /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/share/ament_index/resource_index\n'}
+[1.177829] (custom_topic) StdoutLine: {'line': b'creating /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/share/ament_index/resource_index/packages\n'}
+[1.178081] (custom_topic) StdoutLine: {'line': b'copying resource/custom_topic -> /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/share/ament_index/resource_index/packages\n'}
+[1.178570] (custom_topic) StdoutLine: {'line': b'copying package.xml -> /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/share/custom_topic\n'}
+[1.178839] (custom_topic) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.180501] (custom_topic) StdoutLine: {'line': b'Copying ../../build/custom_topic/custom_topic.egg-info to /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/lib/python3.10/site-packages/custom_topic-0.0.0-py3.10.egg-info\n'}
+[1.182033] (custom_topic) StdoutLine: {'line': b'running install_scripts\n'}
+[1.201950] (custom_topic) StdoutLine: {'line': b'Installing service_pub script to /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/lib/custom_topic\n'}
+[1.202315] (custom_topic) StdoutLine: {'line': b'Installing service_sub script to /home/mike/ros2_cool/04-interface/dev_ws/install/custom_topic/lib/custom_topic\n'}
+[1.202654] (custom_topic) StdoutLine: {'line': b"writing list of installed files to '/home/mike/ros2_cool/04-interface/dev_ws/build/custom_topic/install.log'\n"}
+[1.203616] (-) TimerEvent: {}
+[1.218820] (learn_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[1.247397] (custom_topic) CommandEnded: {'returncode': 0}
+[1.269454] (custom_topic) JobEnded: {'identifier': 'custom_topic', 'rc': 0}
+[1.303789] (-) TimerEvent: {}
+[1.404223] (-) TimerEvent: {}
+[1.504712] (-) TimerEvent: {}
+[1.605141] (-) TimerEvent: {}
+[1.658495] (learn_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.705470] (-) TimerEvent: {}
+[1.805895] (-) TimerEvent: {}
+[1.820094] (learn_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.826598] (learn_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.826937] (learn_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.827221] (learn_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.829810] (learn_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.906040] (-) TimerEvent: {}
+[1.999430] (learn_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.006188] (-) TimerEvent: {}
+[2.007366] (learn_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.007688] (learn_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.008089] (learn_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.010177] (learn_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.106326] (-) TimerEvent: {}
+[2.186140] (learn_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[2.206518] (-) TimerEvent: {}
+[2.270085] (learn_interface) StdoutLine: {'line': b'-- Found rclpy: 3.3.4 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[2.270864] (learn_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.272859] (learn_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.277093] (learn_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.306728] (-) TimerEvent: {}
+[2.407212] (-) TimerEvent: {}
+[2.477255] (learn_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.507366] (-) TimerEvent: {}
+[2.607783] (-) TimerEvent: {}
+[2.708200] (-) TimerEvent: {}
+[2.788159] (learn_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.808364] (-) TimerEvent: {}
+[2.908842] (-) TimerEvent: {}
+[2.976672] (learn_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.009019] (-) TimerEvent: {}
+[3.109550] (-) TimerEvent: {}
+[3.205413] (learn_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.209705] (-) TimerEvent: {}
+[3.310165] (-) TimerEvent: {}
+[3.380138] (learn_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[3.381265] (learn_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.410305] (-) TimerEvent: {}
+[3.510777] (-) TimerEvent: {}
+[3.611203] (-) TimerEvent: {}
+[3.711682] (-) TimerEvent: {}
+[3.812240] (-) TimerEvent: {}
+[3.863933] (learn_interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[3.864199] (learn_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.864434] (learn_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.864667] (learn_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.885844] (learn_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.912374] (-) TimerEvent: {}
+[3.971077] (learn_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.986278] (learn_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.987221] (learn_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.000607] (learn_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.012535] (-) TimerEvent: {}
+[4.049276] (learn_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[4.052439] (learn_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/mike/ros2_cool/04-interface/dev_ws/build/learn_interface\n'}
+[4.059900] (learn_interface) CommandEnded: {'returncode': 0}
+[4.060395] (learn_interface) JobProgress: {'identifier': 'learn_interface', 'progress': 'build'}
+[4.060897] (learn_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mike/ros2_cool/04-interface/dev_ws/build/learn_interface', '--', '-j8', '-l8'], 'cwd': '/home/mike/ros2_cool/04-interface/dev_ws/build/learn_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mike'), ('GIT_ASKPASS', '/home/mike/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mike'), ('OLDPWD', '/home/mike/ros2_cool/04-interface/dev_ws/src'), ('TERM_PROGRAM_VERSION', '1.73.0'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-d48b0a09-375b-43e8-93d3-b77609877d1f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/mike/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/mike/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mike'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/21225_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mike/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/bin/remote-cli:/home/mike/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/mike/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/mike/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-736c2d4879.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/mike/ros2_cool/04-interface/dev_ws/build/learn_interface'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.092642] (learn_interface) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.100576] (learn_interface) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.112247] (learn_interface) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_learn_interface\n'}
+[4.112743] (-) TimerEvent: {}
+[4.216052] (-) TimerEvent: {}
+[4.316656] (-) TimerEvent: {}
+[4.417087] (-) TimerEvent: {}
+[4.495073] (learn_interface) StdoutLine: {'line': b'running egg_info\n'}
+[4.495643] (learn_interface) StdoutLine: {'line': b'creating learn_interface.egg-info\n'}
+[4.496099] (learn_interface) StdoutLine: {'line': b'writing learn_interface.egg-info/PKG-INFO\n'}
+[4.496681] (learn_interface) StdoutLine: {'line': b'writing dependency_links to learn_interface.egg-info/dependency_links.txt\n'}
+[4.497311] (learn_interface) StdoutLine: {'line': b'writing top-level names to learn_interface.egg-info/top_level.txt\n'}
+[4.497863] (learn_interface) StdoutLine: {'line': b"writing manifest file 'learn_interface.egg-info/SOURCES.txt'\n"}
+[4.501393] (learn_interface) StdoutLine: {'line': b"reading manifest file 'learn_interface.egg-info/SOURCES.txt'\n"}
+[4.501878] (learn_interface) StdoutLine: {'line': b"writing manifest file 'learn_interface.egg-info/SOURCES.txt'\n"}
+[4.517327] (-) TimerEvent: {}
+[4.533259] (learn_interface) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_learn_interface_egg\n'}
+[4.617034] (learn_interface) StdoutLine: {'line': b'[  4%] Built target learn_interface__cpp\n'}
+[4.617342] (-) TimerEvent: {}
+[4.632524] (learn_interface) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.646447] (learn_interface) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.650900] (learn_interface) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.683913] (learn_interface) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/learn_interface__rosidl_generator_c.dir/rosidl_generator_c/learn_interface/msg/detail/object_position__functions.c.o\x1b[0m\n'}
+[4.687015] (learn_interface) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/learn_interface__rosidl_generator_c.dir/rosidl_generator_c/learn_interface/srv/detail/get_object_position__functions.c.o\x1b[0m\n'}
+[4.689054] (learn_interface) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/learn_interface__rosidl_generator_c.dir/rosidl_generator_c/learn_interface/srv/detail/add_two_ints__functions.c.o\x1b[0m\n'}
+[4.717491] (-) TimerEvent: {}
+[4.797902] (learn_interface) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library liblearn_interface__rosidl_generator_c.so\x1b[0m\n'}
+[4.817692] (-) TimerEvent: {}
+[4.918198] (-) TimerEvent: {}
+[5.017004] (learn_interface) StdoutLine: {'line': b'[ 19%] Built target learn_interface__rosidl_generator_c\n'}
+[5.018401] (-) TimerEvent: {}
+[5.036252] (learn_interface) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.039073] (learn_interface) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.040997] (learn_interface) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.118639] (-) TimerEvent: {}
+[5.219639] (-) TimerEvent: {}
+[5.320013] (-) TimerEvent: {}
+[5.395918] (learn_interface) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/learn_interface/msg/object_position__type_support.cpp.o\x1b[0m\n'}
+[5.410531] (learn_interface) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/learn_interface/srv/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[5.420152] (-) TimerEvent: {}
+[5.425661] (learn_interface) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/learn_interface/srv/get_object_position__type_support.cpp.o\x1b[0m\n'}
+[5.520302] (-) TimerEvent: {}
+[5.620737] (-) TimerEvent: {}
+[5.637913] (learn_interface) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/learn_interface/msg/detail/object_position__type_support.cpp.o\x1b[0m\n'}
+[5.720883] (-) TimerEvent: {}
+[5.769666] (learn_interface) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/learn_interface/msg/detail/dds_fastrtps/object_position__type_support.cpp.o\x1b[0m\n'}
+[5.821029] (-) TimerEvent: {}
+[5.921672] (-) TimerEvent: {}
+[6.022276] (-) TimerEvent: {}
+[6.122719] (-) TimerEvent: {}
+[6.223271] (-) TimerEvent: {}
+[6.237375] (learn_interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/learn_interface/msg/object_position__type_support.cpp.o\x1b[0m\n'}
+[6.323437] (-) TimerEvent: {}
+[6.377437] (learn_interface) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/learn_interface/srv/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[6.423591] (-) TimerEvent: {}
+[6.450713] (learn_interface) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/learn_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/learn_interface/msg/detail/object_position__type_support.c.o\x1b[0m\n'}
+[6.525046] (-) TimerEvent: {}
+[6.625643] (-) TimerEvent: {}
+[6.702759] (learn_interface) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/learn_interface/srv/get_object_position__type_support.cpp.o\x1b[0m\n'}
+[6.725793] (-) TimerEvent: {}
+[6.733784] (learn_interface) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/learn_interface/msg/detail/object_position__type_support_c.cpp.o\x1b[0m\n'}
+[6.747806] (learn_interface) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/learn_interface/srv/detail/add_two_ints__type_support_c.cpp.o\x1b[0m\n'}
+[6.782621] (learn_interface) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/learn_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/learn_interface/srv/detail/add_two_ints__type_support.c.o\x1b[0m\n'}
+[6.807645] (learn_interface) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/learn_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/learn_interface/srv/detail/get_object_position__type_support.c.o\x1b[0m\n'}
+[6.824979] (learn_interface) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library liblearn_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.825917] (-) TimerEvent: {}
+[6.846280] (learn_interface) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library liblearn_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.864763] (learn_interface) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/learn_interface/srv/detail/get_object_position__type_support_c.cpp.o\x1b[0m\n'}
+[6.926337] (-) TimerEvent: {}
+[6.934587] (learn_interface) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library liblearn_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.026541] (-) TimerEvent: {}
+[7.127080] (-) TimerEvent: {}
+[7.227720] (-) TimerEvent: {}
+[7.303979] (learn_interface) StdoutLine: {'line': b'[ 61%] Built target learn_interface__rosidl_typesupport_c\n'}
+[7.325560] (learn_interface) StdoutLine: {'line': b'[ 61%] Built target learn_interface__rosidl_typesupport_cpp\n'}
+[7.327875] (-) TimerEvent: {}
+[7.344614] (learn_interface) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/learn_interface/srv/detail/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[7.360469] (learn_interface) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/learn_interface/srv/detail/get_object_position__type_support.cpp.o\x1b[0m\n'}
+[7.372318] (learn_interface) StdoutLine: {'line': b'[ 65%] Built target learn_interface__rosidl_typesupport_introspection_c\n'}
+[7.424213] (learn_interface) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/learn_interface/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[7.428231] (-) TimerEvent: {}
+[7.461729] (learn_interface) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/learn_interface/srv/detail/dds_fastrtps/get_object_position__type_support.cpp.o\x1b[0m\n'}
+[7.529337] (-) TimerEvent: {}
+[7.630095] (-) TimerEvent: {}
+[7.731305] (-) TimerEvent: {}
+[7.833290] (-) TimerEvent: {}
+[7.933803] (-) TimerEvent: {}
+[7.983330] (learn_interface) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library liblearn_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.034008] (-) TimerEvent: {}
+[8.134592] (-) TimerEvent: {}
+[8.235197] (-) TimerEvent: {}
+[8.335782] (-) TimerEvent: {}
+[8.436333] (-) TimerEvent: {}
+[8.476323] (learn_interface) StdoutLine: {'line': b'[ 72%] Built target learn_interface__rosidl_typesupport_fastrtps_c\n'}
+[8.536542] (-) TimerEvent: {}
+[8.637116] (-) TimerEvent: {}
+[8.737666] (-) TimerEvent: {}
+[8.739493] (learn_interface) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library liblearn_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.837843] (-) TimerEvent: {}
+[8.838971] (learn_interface) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library liblearn_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.938048] (-) TimerEvent: {}
+[8.984734] (learn_interface) StdoutLine: {'line': b'[ 76%] Built target learn_interface__rosidl_typesupport_introspection_cpp\n'}
+[9.038265] (-) TimerEvent: {}
+[9.109322] (learn_interface) StdoutLine: {'line': b'[ 76%] Built target learn_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[9.135308] (learn_interface) StdoutLine: {'line': b'[ 76%] Built target learn_interface\n'}
+[9.138487] (-) TimerEvent: {}
+[9.159313] (learn_interface) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.238682] (-) TimerEvent: {}
+[9.339282] (-) TimerEvent: {}
+[9.439811] (-) TimerEvent: {}
+[9.540207] (-) TimerEvent: {}
+[9.640704] (-) TimerEvent: {}
+[9.741139] (-) TimerEvent: {}
+[9.841580] (-) TimerEvent: {}
+[9.942007] (-) TimerEvent: {}
+[9.953538] (learn_interface) StdoutLine: {'line': b'[ 78%] Built target learn_interface__py\n'}
+[9.973909] (learn_interface) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/learn_interface__rosidl_generator_py.dir/rosidl_generator_py/learn_interface/msg/_object_position_s.c.o\x1b[0m\n'}
+[9.974344] (learn_interface) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/learn_interface__rosidl_generator_py.dir/rosidl_generator_py/learn_interface/srv/_get_object_position_s.c.o\x1b[0m\n'}
+[9.974610] (learn_interface) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/learn_interface__rosidl_generator_py.dir/rosidl_generator_py/learn_interface/srv/_add_two_ints_s.c.o\x1b[0m\n'}
+[10.042232] (-) TimerEvent: {}
+[10.121294] (learn_interface) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/learn_interface/liblearn_interface__rosidl_generator_py.so\x1b[0m\n'}
+[10.142398] (-) TimerEvent: {}
+[10.242948] (-) TimerEvent: {}
+[10.272171] (learn_interface) StdoutLine: {'line': b'[ 87%] Built target learn_interface__rosidl_generator_py\n'}
+[10.293859] (learn_interface) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/learn_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/learn_interface/_learn_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.294727] (learn_interface) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/learn_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/learn_interface/_learn_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.298149] (learn_interface) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/learn_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/learn_interface/_learn_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.343146] (-) TimerEvent: {}
+[10.443678] (-) TimerEvent: {}
+[10.455277] (learn_interface) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/learn_interface/learn_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.461419] (learn_interface) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/learn_interface/learn_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.464209] (learn_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/learn_interface/learn_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.543865] (-) TimerEvent: {}
+[10.587208] (learn_interface) StdoutLine: {'line': b'[100%] Built target learn_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.587943] (learn_interface) StdoutLine: {'line': b'[100%] Built target learn_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[10.623714] (learn_interface) StdoutLine: {'line': b'[100%] Built target learn_interface__rosidl_typesupport_c__pyext\n'}
+[10.638252] (learn_interface) CommandEnded: {'returncode': 0}
+[10.644054] (-) TimerEvent: {}
+[10.740690] (learn_interface) JobProgress: {'identifier': 'learn_interface', 'progress': 'install'}
+[10.744244] (-) TimerEvent: {}
+[10.752645] (learn_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mike/ros2_cool/04-interface/dev_ws/build/learn_interface'], 'cwd': '/home/mike/ros2_cool/04-interface/dev_ws/build/learn_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mike'), ('GIT_ASKPASS', '/home/mike/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mike'), ('OLDPWD', '/home/mike/ros2_cool/04-interface/dev_ws/src'), ('TERM_PROGRAM_VERSION', '1.73.0'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-d48b0a09-375b-43e8-93d3-b77609877d1f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/mike/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/mike/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mike'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/21225_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mike/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/bin/remote-cli:/home/mike/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/mike/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/mike/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-736c2d4879.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/mike/ros2_cool/04-interface/dev_ws/build/learn_interface'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.761606] (learn_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.766142] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/ament_index/resource_index/rosidl_interfaces/learn_interface\n'}
+[10.767456] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface\n'}
+[10.767926] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg\n'}
+[10.768289] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.768555] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg/detail\n'}
+[10.769096] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg/detail/object_position__functions.c\n'}
+[10.769458] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg/detail/object_position__struct.h\n'}
+[10.769903] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg/detail/object_position__type_support.h\n'}
+[10.770207] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg/detail/object_position__functions.h\n'}
+[10.770498] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg/object_position.h\n'}
+[10.770911] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv\n'}
+[10.771338] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/get_object_position.h\n'}
+[10.771610] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/add_two_ints.h\n'}
+[10.771962] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail\n'}
+[10.772280] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail/add_two_ints__functions.c\n'}
+[10.772520] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail/add_two_ints__struct.h\n'}
+[10.772739] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail/get_object_position__type_support.h\n'}
+[10.772928] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail/add_two_ints__functions.h\n'}
+[10.773133] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail/add_two_ints__type_support.h\n'}
+[10.773322] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail/get_object_position__functions.h\n'}
+[10.773436] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail/get_object_position__struct.h\n'}
+[10.773608] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail/get_object_position__functions.c\n'}
+[10.773999] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/environment/library_path.sh\n'}
+[10.774423] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/environment/library_path.dsv\n'}
+[10.775098] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/lib/liblearn_interface__rosidl_generator_c.so\n'}
+[10.775329] (learn_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/lib/liblearn_interface__rosidl_generator_c.so" to ""\n'}
+[10.775769] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface\n'}
+[10.776178] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg\n'}
+[10.776525] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg/detail\n'}
+[10.776838] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg/detail/object_position__rosidl_typesupport_fastrtps_c.h\n'}
+[10.776971] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.777097] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv\n'}
+[10.778068] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail\n'}
+[10.779365] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[10.780042] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail/get_object_position__rosidl_typesupport_fastrtps_c.h\n'}
+[10.780470] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[10.780800] (learn_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.781093] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface\n'}
+[10.781473] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg\n'}
+[10.781668] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg/detail\n'}
+[10.781853] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg/detail/object_position__rosidl_typesupport_introspection_c.h\n'}
+[10.782015] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg/detail/object_position__type_support.c\n'}
+[10.782214] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.782321] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv\n'}
+[10.782530] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail\n'}
+[10.782634] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h\n'}
+[10.782786] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail/add_two_ints__type_support.c\n'}
+[10.782885] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail/get_object_position__rosidl_typesupport_introspection_c.h\n'}
+[10.783094] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail/get_object_position__type_support.c\n'}
+[10.783598] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_introspection_c.so\n'}
+[10.784057] (learn_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.784291] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_c.so\n'}
+[10.784630] (learn_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_c.so" to ""\n'}
+[10.784875] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface\n'}
+[10.785047] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg\n'}
+[10.785504] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg/object_position.hpp\n'}
+[10.785746] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg/detail\n'}
+[10.785916] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg/detail/object_position__struct.hpp\n'}
+[10.786147] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg/detail/object_position__traits.hpp\n'}
+[10.786255] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg/detail/object_position__builder.hpp\n'}
+[10.786409] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv\n'}
+[10.786610] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/add_two_ints.hpp\n'}
+[10.786778] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/get_object_position.hpp\n'}
+[10.786992] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail\n'}
+[10.787214] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail/add_two_ints__traits.hpp\n'}
+[10.787433] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail/get_object_position__traits.hpp\n'}
+[10.787619] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail/get_object_position__builder.hpp\n'}
+[10.787904] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail/add_two_ints__struct.hpp\n'}
+[10.788635] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail/get_object_position__struct.hpp\n'}
+[10.788854] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail/add_two_ints__builder.hpp\n'}
+[10.789250] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface\n'}
+[10.789494] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg\n'}
+[10.789683] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg/detail\n'}
+[10.789965] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg/detail/object_position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.790464] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg/detail/dds_fastrtps\n'}
+[10.790799] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.791282] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv\n'}
+[10.791807] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail\n'}
+[10.792113] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.792484] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail/dds_fastrtps\n'}
+[10.792839] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail/get_object_position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.793047] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.793137] (learn_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[10.793298] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface\n'}
+[10.793401] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg\n'}
+[10.793524] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg/detail\n'}
+[10.793649] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg/detail/object_position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.793774] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/msg/detail/object_position__type_support.cpp\n'}
+[10.794020] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv\n'}
+[10.794380] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail\n'}
+[10.794811] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.795291] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail/add_two_ints__type_support.cpp\n'}
+[10.795877] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail/get_object_position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.796960] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/include/learn_interface/learn_interface/srv/detail/get_object_position__type_support.cpp\n'}
+[10.797298] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[10.797550] (learn_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[10.797917] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_cpp.so\n'}
+[10.798010] (learn_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[10.798188] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/environment/pythonpath.sh\n'}
+[10.798719] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/environment/pythonpath.dsv\n'}
+[10.799309] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface-0.0.0-py3.10.egg-info\n'}
+[10.799705] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[10.800107] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[10.800599] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[10.800929] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[10.801339] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface\n'}
+[10.801743] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/learn_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.802027] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/_learn_interface_s.ep.rosidl_typesupport_c.c\n'}
+[10.802292] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/msg\n'}
+[10.802535] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/msg/_object_position.py\n'}
+[10.802756] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/msg/_object_position_s.c\n'}
+[10.803008] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/msg/__init__.py\n'}
+[10.803261] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/liblearn_interface__rosidl_generator_py.so\n'}
+[10.803494] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/_learn_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.803729] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/_learn_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.803970] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/__init__.py\n'}
+[10.804228] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/srv\n'}
+[10.804407] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/srv/_add_two_ints.py\n'}
+[10.804679] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/srv/_get_object_position.py\n'}
+[10.804984] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/srv/_get_object_position_s.c\n'}
+[10.805186] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/srv/_add_two_ints_s.c\n'}
+[10.805517] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/srv/__init__.py\n'}
+[10.805847] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/learn_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.806127] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/learn_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.844424] (-) TimerEvent: {}
+[10.869250] (learn_interface) StdoutLine: {'line': b"Listing '/home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface'...\n"}
+[10.869727] (learn_interface) StdoutLine: {'line': b"Compiling '/home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/__init__.py'...\n"}
+[10.870009] (learn_interface) StdoutLine: {'line': b"Listing '/home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/msg'...\n"}
+[10.870186] (learn_interface) StdoutLine: {'line': b"Compiling '/home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/msg/__init__.py'...\n"}
+[10.870330] (learn_interface) StdoutLine: {'line': b"Compiling '/home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/msg/_object_position.py'...\n"}
+[10.870483] (learn_interface) StdoutLine: {'line': b"Listing '/home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/srv'...\n"}
+[10.870630] (learn_interface) StdoutLine: {'line': b"Compiling '/home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/srv/__init__.py'...\n"}
+[10.870891] (learn_interface) StdoutLine: {'line': b"Compiling '/home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/srv/_add_two_ints.py'...\n"}
+[10.871099] (learn_interface) StdoutLine: {'line': b"Compiling '/home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/srv/_get_object_position.py'...\n"}
+[10.881825] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/learn_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.897640] (learn_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/learn_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[10.897945] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/learn_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.898104] (learn_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/learn_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[10.898235] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/learn_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.898358] (learn_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages/learn_interface/learn_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[10.898479] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/lib/liblearn_interface__rosidl_generator_py.so\n'}
+[10.898600] (learn_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/lib/liblearn_interface__rosidl_generator_py.so" to ""\n'}
+[10.898732] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/msg/ObjectPosition.idl\n'}
+[10.899022] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/srv/AddTwoInts.idl\n'}
+[10.899150] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/srv/GetObjectPosition.idl\n'}
+[10.899261] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/msg/ObjectPosition.msg\n'}
+[10.899379] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/srv/AddTwoInts.srv\n'}
+[10.899518] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/srv/AddTwoInts_Request.msg\n'}
+[10.899622] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/srv/AddTwoInts_Response.msg\n'}
+[10.899728] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/srv/GetObjectPosition.srv\n'}
+[10.900104] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/srv/GetObjectPosition_Request.msg\n'}
+[10.900233] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/srv/GetObjectPosition_Response.msg\n'}
+[10.900342] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/ament_index/resource_index/package_run_dependencies/learn_interface\n'}
+[10.900491] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/ament_index/resource_index/parent_prefix_path/learn_interface\n'}
+[10.900603] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/environment/ament_prefix_path.sh\n'}
+[10.900713] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/environment/ament_prefix_path.dsv\n'}
+[10.900825] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/environment/path.sh\n'}
+[10.900941] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/environment/path.dsv\n'}
+[10.901051] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/local_setup.bash\n'}
+[10.901158] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/local_setup.sh\n'}
+[10.901263] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/local_setup.zsh\n'}
+[10.901370] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/local_setup.dsv\n'}
+[10.901482] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/package.dsv\n'}
+[10.901818] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/ament_index/resource_index/packages/learn_interface\n'}
+[10.901973] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/cmake/export_learn_interface__rosidl_generator_cExport.cmake\n'}
+[10.902081] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/cmake/export_learn_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.902367] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/cmake/export_learn_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[10.902489] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/cmake/export_learn_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[10.902596] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/cmake/learn_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.902701] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/cmake/learn_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.902803] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/cmake/learn_interface__rosidl_typesupport_cExport.cmake\n'}
+[10.902906] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/cmake/learn_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.903011] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/cmake/export_learn_interface__rosidl_generator_cppExport.cmake\n'}
+[10.903114] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/cmake/export_learn_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[10.903244] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/cmake/export_learn_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[10.903382] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/cmake/learn_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.903500] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/cmake/learn_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.903609] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/cmake/learn_interface__rosidl_typesupport_cppExport.cmake\n'}
+[10.903894] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/cmake/learn_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.904194] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/cmake/export_learn_interface__rosidl_generator_pyExport.cmake\n'}
+[10.904492] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/cmake/export_learn_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[10.904863] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[10.911478] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.911759] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.913140] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.913356] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.913510] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.913656] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.914615] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/cmake/learn_interfaceConfig.cmake\n'}
+[10.915121] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/cmake/learn_interfaceConfig-version.cmake\n'}
+[10.916730] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_cool/04-interface/dev_ws/install/learn_interface/share/learn_interface/package.xml\n'}
+[10.917606] (learn_interface) CommandEnded: {'returncode': 0}
+[10.944631] (-) TimerEvent: {}
+[11.045152] (-) TimerEvent: {}
+[11.145728] (-) TimerEvent: {}
+[11.227547] (learn_interface) JobEnded: {'identifier': 'learn_interface', 'rc': 0}
+[11.231609] (-) EventReactorShutdown: {}

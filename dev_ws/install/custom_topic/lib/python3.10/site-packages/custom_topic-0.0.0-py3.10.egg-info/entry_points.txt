@@ -1,0 +1,4 @@
+[console_scripts]
+service_pub = custom_topic.service_object_server:main
+service_sub = custom_topic.service_object_client.main
+

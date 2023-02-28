@@ -1,0 +1,3 @@
+/home/mike/ros2_cool/04-interface/dev_ws/build/learn_interface/rosidl_adapter/learn_interface:msg/ObjectPosition.idl
+/home/mike/ros2_cool/04-interface/dev_ws/build/learn_interface/rosidl_adapter/learn_interface:srv/AddTwoInts.idl
+/home/mike/ros2_cool/04-interface/dev_ws/build/learn_interface/rosidl_adapter/learn_interface:srv/GetObjectPosition.idl
